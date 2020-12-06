@@ -562,6 +562,21 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{smpl,
+  author    = {Matthew Loper and
+               Naureen Mahmood and
+               Javier Romero and
+               Gerard Pons{-}Moll and
+               Michael J. Black},
+  title     = {{SMPL:} a skinned multi-person linear model},
+  journal   = {{ACM} Trans. Graph.},
+  volume    = {34},
+  number    = {6},
+  pages     = {248:1--248:16},
+  year      = {2015},
+}
+
+
 % -- arxiv2015 --
 @article{densebox,
   author    = {Lichao Huang and
@@ -1031,6 +1046,18 @@ f
   year      = {2017},
 }
 
+@inproceedings{DeepPrior++,
+  author    = {Markus Oberweger and
+               Vincent Lepetit},
+  title     = {DeepPrior++: Improving Fast and Accurate 3D Hand Pose Estimation},
+  booktitle = {2017 {IEEE} International Conference on Computer Vision Workshops,
+               {ICCV} Workshops 2017},
+  pages     = {585--594},
+  publisher = {{IEEE}},
+  year      = {2017},
+}
+
+
 % -- nips2017 --
 @inproceedings{transformer,
   author    = {Ashish Vaswani and
@@ -1095,6 +1122,19 @@ f
   pages     = {1137--1149},
   year      = {2017}
 }
+
+@article{mano,
+  author    = {Javier Romero and
+               Dimitrios Tzionas and
+               Michael J. Black},
+  title     = {Embodied hands: modeling and capturing hands and bodies together},
+  journal   = {{ACM} Trans. Graph.},
+  volume    = {36},
+  number    = {6},
+  pages     = {245:1--245:17},
+  year      = {2017},
+}
+
 
 % --- 2018 ---
 
@@ -1215,6 +1255,24 @@ f
   year      = {2018},
 }
 
+@inproceedings{PointNet,
+  author    = {Liuhao Ge and
+               Zhou Ren and
+               Junsong Yuan},
+  editor    = {Vittorio Ferrari and
+               Martial Hebert and
+               Cristian Sminchisescu and
+               Yair Weiss},
+  title     = {Point-to-Point Regression PointNet for 3D Hand Pose Estimation},
+  booktitle = {{ECCV}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11217},
+  pages     = {489--505},
+  publisher = {Springer},
+  year      = {2018},
+}
+
+
 % -- cvpr2018 --
 @inproceedings{relod,
   author    = {Han Hu and
@@ -1332,6 +1390,7 @@ f
 
 }
 
+
 % -- nips2018 --
 @inproceedings{mtl_as_moo,
   author    = {Ozan Sener and
@@ -1393,6 +1452,24 @@ f
   pages     = {924--933},
   year      = {2017}
 }
+
+% -- 3dv2018 --
+@inproceedings{DeepHPS,
+  author    = {Jameel Malik and
+               Ahmed Elhayek and
+               Fabrizio Nunnari and
+               Kiran Varanasi and
+               Kiarash Tamaddon and
+               Alexis H{\'{e}}loir and
+               Didier Stricker},
+  title     = {DeepHPS: End-to-end Estimation of 3D Hand Pose and Shape by Learning
+               from Synthetic Depth},
+  booktitle = {2018 International Conference on 3D Vision, 3DV 2018},
+  pages     = {110--119},
+  publisher = {{IEEE}},
+  year      = {2018},
+}
+
 
 % -- journal2018 --
 @Article{generic_od,
@@ -1813,6 +1890,83 @@ year = {2019}
   year      = {2019},
 }
 
+@inproceedings{wild,
+  author    = {Adnane Boukhayma and
+               Rodrigo de Bem and
+               Philip H. S. Torr},
+  title     = {3D Hand Shape and Pose From Images in the Wild},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {10843--10852},
+  year      = {2019},
+}
+
+@inproceedings{m_hand-obj,
+  author    = {Yana Hasson and
+               G{\"{u}}l Varol and
+               Dimitrios Tzionas and
+               Igor Kalevatykh and
+               Michael J. Black and
+               Ivan Laptev and
+               Cordelia Schmid},
+  title     = {Learning Joint Reconstruction of Hands and Manipulated Objects},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {11807--11816},
+  year      = {2019},
+
+}
+
+@inproceedings{dhpe,
+  author    = {Seungryul Baek and
+               Kwang In Kim and
+               Tae{-}Kyun Kim},
+  title     = {Pushing the Envelope for RGB-Based Dense 3D Hand Pose Estimation via
+               Neural Rendering},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {1067--1076},
+  year      = {2019},
+}
+
+@inproceedings{semgcn,
+  author    = {Long Zhao and
+               Xi Peng and
+               Yu Tian and
+               Mubbasir Kapadia and
+               Dimitris N. Metaxas},
+  title     = {Semantic Graph Convolutional Networks for 3D Human Pose Regression},
+  booktitle = {Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {3425--3435},
+  publisher = {{IEEE}},
+  year      = {2019},
+}
+
+@inproceedings{gcn,
+  author    = {Liuhao Ge and
+               Zhou Ren and
+               Yuncheng Li and
+               Zehao Xue and
+               Yingying Wang and
+               Jianfei Cai and
+               Junsong Yuan},
+  title     = {3D Hand Shape and Pose Estimation From a Single {RGB} Image},
+  booktitle = {Conference on Computer Vision and Pattern Recognition, {CVPR}
+               2019, Long Beach, CA, USA, June 16-20, 2019},
+  pages     = {10833--10842},
+  publisher = {{IEEE}},
+  year      = {2019},
+}
+
+@inproceedings{hrnet,
+  author    = {Ke Sun and
+               Bin Xiao and
+               Dong Liu and
+               Jingdong Wang},
+  title     = {Deep High-Resolution Representation Learning for Human Pose Estimation},
+  booktitle = {Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {5693--5703},
+  publisher = {{IEEE}},
+  year      = {2019},
+}
+
 % -- aaai2019 --
 @inproceedings{ghm,
   author    = {Buyu Li and
@@ -1863,6 +2017,19 @@ year = {2019}
   year      = {2019}
 }
 
+% -- bmvw2019 --
+
+@inproceedings{meshconv1,
+  author    = {Dominik Kulon and
+               Haoyang Wang and
+               Riza Alp G{\"{u}}ler and
+               Michael M. Bronstein and
+               Stefanos Zafeiriou},
+  title     = {Single Image 3D Hand Reconstruction with Mesh Convolutions},
+  booktitle = {30th British Machine Vision Conference 2019, {BMVC}},
+  pages     = {45},
+  year      = {2019},
+}
 
 % -- journal2019 --
 
@@ -1935,6 +2102,64 @@ year = {2019}
   booktitle = {ICCV},
   pages     = {9657--9666},
   year      = {2019}
+}
+
+@inproceedings{freihand,
+  author    = {Christian Zimmermann and
+               Duygu Ceylan and
+               Jimei Yang and
+               Bryan C. Russell and
+               Max J. Argus and
+               Thomas Brox},
+  title     = {FreiHAND: {A} Dataset for Markerless Capture of Hand Pose and Shape
+               From Single {RGB} Images},
+  booktitle = {International Conference on Computer Vision, {ICCV}},
+  pages     = {813--822},
+  publisher = {{IEEE}},
+  year      = {2019},
+}
+
+@inproceedings{exp-gcn,
+  author    = {Yujun Cai and
+               Liuhao Ge and
+               Jun Liu and
+               Jianfei Cai and
+               Tat{-}Jen Cham and
+               Junsong Yuan and
+               Nadia Magnenat{-}Thalmann},
+  title     = {Exploiting Spatial-Temporal Relationships for 3D Pose Estimation via
+               Graph Convolutional Networks},
+  booktitle = {International Conference on Computer Vision, {ICCV}},
+  pages     = {2272--2281},
+  publisher = {{IEEE}},
+  year      = {2019},
+}
+
+@inproceedings{SO-HandNet,
+  author    = {Yujin Chen and
+               Zhigang Tu and
+               Liuhao Ge and
+               Dejun Zhang and
+               Ruizhi Chen and
+               Junsong Yuan},
+  title     = {SO-HandNet: Self-Organizing Network for 3D Hand Pose Estimation With
+               Semi-Supervised Learning},
+  booktitle = {International Conference on Computer Vision, {ICCV}},
+  pages     = {6960--6969},
+  publisher = {{IEEE}},
+  year      = {2019},
+}
+
+@inproceedings{hmr,
+  author    = {Xiong Zhang and
+               Qiang Li and
+               Hong Mo and
+               Wenbo Zhang and
+               Wen Zheng},
+  title     = {End-to-End Hand Mesh Recovery From a Monocular {RGB} Image},
+  booktitle = {2019 {IEEE/CVF} International Conference on Computer Vision, {ICCV}},
+  pages     = {2354--2364},
+  year      = {2019},
 }
 
 % --fg2019--
@@ -2272,6 +2497,88 @@ year = {2020}
   year      = {2020}
 }
 
+@inproceedings{DetNet,
+  author    = {Yuxiao Zhou and
+               Marc Habermann and
+               Weipeng Xu and
+               Ikhsanul Habibie and
+               Christian Theobalt and
+               Feng Xu},
+  title     = {Monocular Real-Time Hand Shape and Motion Capture Using Multi-Modal
+               Data},
+  booktitle = {Conference on Computer Vision and Pattern Recognition,{CVPR}},
+  pages     = {5345--5354},
+  publisher = {{IEEE}},
+  year      = {2020},
+}
+
+@inproceedings{meshconv2,
+  author    = {Dominik Kulon and
+               Riza Alp G{\"{u}}ler and
+               Iasonas Kokkinos and
+               Michael M. Bronstein and
+               Stefanos Zafeiriou},
+  title     = {Weakly-Supervised Mesh-Convolutional Hand Reconstruction in the Wild},
+  booktitle = {Conference on Computer Vision and Pattern Recognition,{CVPR}},
+  pages     = {4989--4999},
+  publisher = {{IEEE}},
+  year      = {2020},
+}
+
+@inproceedings{hope-net,
+  author    = {Bardia Doosti and
+               Shujon Naha and
+               Majid Mirbagheri and
+               David J. Crandall},
+  title     = {HOPE-Net: {A} Graph-Based Model for Hand-Object Pose Estimation},
+  booktitle = {Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {6607--6616},
+  publisher = {{IEEE}},
+  year      = {2020},
+}
+
+@inproceedings{gan,
+  author    = {Seungryul Baek and
+               Kwang In Kim and
+               Tae{-}Kyun Kim},
+  title     = {Weakly-Supervised Domain Adaptation via {GAN} and Mesh Model for Estimating
+               3D Hand Poses Interacting Objects},
+  booktitle = {Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {6120--6130},
+  publisher = {{IEEE}},
+  year      = {2020},
+}
+
+@inproceedings{ganhand,
+  author    = {Enric Corona and
+               Albert Pumarola and
+               Guillem Aleny{\`{a}} and
+               Francesc Moreno{-}Noguer and
+               Gr{\'{e}}gory Rogez},
+  title     = {GanHand: Predicting Human Grasp Affordances in Multi-Object Scenes},
+  booktitle = {Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {5030--5040},
+  publisher = {{IEEE}},
+  year      = {2020},
+}
+
+@inproceedings{HandVoxNet,
+  author    = {Jameel Malik and
+               Ibrahim Abdelaziz and
+               Ahmed Elhayek and
+               Soshi Shimada and
+               Sk Aziz Ali and
+               Vladislav Golyanik and
+               Christian Theobalt and
+               Didier Stricker},
+  title     = {HandVoxNet: Deep Voxel-Based Network for 3D Hand Shape and Pose Estimation
+               From a Single Depth Map},
+  booktitle = {Conference on Computer Vision and Pattern Recognition, {CVPR}},
+  pages     = {7111--7120},
+  publisher = {{IEEE}},
+  year      = {2020},
+}
+
 % -- eccv2020 --
 @inproceedings{dense_reppoints,
   author    = {Ze Yang and
@@ -2303,6 +2610,19 @@ year = {2020}
   title     = {Probabilistic Anchor Assignment with IoU Prediction for Object Detection},
   booktitle   = {ECCV},
   year      = {2020}
+}
+
+@inproceedings{deephandmesh,
+  author    = {Gyeongsik Moon and
+               Takaaki Shiratori and
+               Kyoung Mu Lee},
+  title     = {DeepHandMesh: {A} Weakly-Supervised Deep Encoder-Decoder Framework
+               for High-Fidelity Hand Mesh Modeling},
+  booktitle = {Computer Vision - {ECCV} 2020 - 16th European Conference},
+  volume    = {12347},
+  pages     = {440--455},
+  publisher = {Springer},
+  year      = {2020},
 }
 
 % -- wacv2020 --
@@ -2338,3 +2658,14 @@ year = {2020}
   year = {2020}
 }
 
+% -- corr2020 --
+
+@article{I2L,
+  author    = {Gyeongsik Moon and
+               Kyoung Mu Lee},
+  title     = {I2L-MeshNet: Image-to-Lixel Prediction Network for Accurate 3D Human
+               Pose and Mesh Estimation from a Single {RGB} Image},
+  journal   = {CoRR},
+  volume    = {abs/2008.03713},
+  year      = {2020},
+}
