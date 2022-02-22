@@ -1,62 +1,4 @@
-@String(PAMI = {IEEE Trans. Pattern Anal. Mach. Intell.})
-@String(IJCV = {Int. J. Comput. Vis.})
-@String(CVPR= {IEEE Conf. Comput. Vis. Pattern Recog.})
-@String(ICCV= {Int. Conf. Comput. Vis.})
-@String(ECCV= {Eur. Conf. Comput. Vis.})
-@String(NIPS= {Adv. Neural Inform. Process. Syst.})
-@String(ICPR = {Int. Conf. Pattern Recog.})
-@String(BMVC= {Brit. Mach. Vis. Conf.})
-@String(TOG= {ACM Trans. Graph.})
-@String(TIP  = {IEEE Trans. Image Process.})
-@String(TVCG  = {IEEE Trans. Vis. Comput. Graph.})
-@String(TMM  = {IEEE Trans. Multimedia})
-@String(ACMMM= {ACM Int. Conf. Multimedia})
-@String(ICME = {Int. Conf. Multimedia and Expo})
-@String(ICASSP=	{ICASSP})
-@String(ICIP = {IEEE Int. Conf. Image Process.})
-@String(ACCV  = {ACCV})
-@String(ICLR = {Int. Conf. Learn. Represent.})
-@String(IJCAI = {IJCAI})
-@String(PR   = {Pattern Recognition})
-@String(AAAI = {AAAI})
-@String(CVPRW= {IEEE Conf. Comput. Vis. Pattern Recog. Worksh.})
-@String(CSVT = {IEEE Trans. Circuit Syst. Video Technol.})
-
-@String(SPL	= {IEEE Sign. Process. Letters})
-@String(VR   = {Vis. Res.})
-@String(JOV	 = {J. Vis.})
-@String(TVC  = {The Vis. Comput.})
-@String(JCST  = {J. Comput. Sci. Tech.})
-@String(CGF  = {Comput. Graph. Forum})
-@String(CVM = {Computational Visual Media})
-
-
-@String(PAMI  = {IEEE TPAMI})
-@String(IJCV  = {IJCV})
-@String(CVPR  = {CVPR})
-@String(ICCV  = {ICCV})
-@String(ECCV  = {ECCV})
-@String(NIPS  = {NeurIPS})
-@String(ICPR  = {ICPR})
-@String(BMVC  =	{BMVC})
-@String(TOG   = {ACM TOG})
-@String(TIP   = {IEEE TIP})
-@String(TVCG  = {IEEE TVCG})
-@String(TCSVT = {IEEE TCSVT})
-@String(TMM   =	{IEEE TMM})
-@String(ACMMM = {ACM MM})
-@String(ICME  =	{ICME})
-@String(ICASSP=	{ICASSP})
-@String(ICIP  = {ICIP})
-@String(ACCV  = {ACCV})
-@String(ICLR  = {ICLR})
-@String(IJCAI = {IJCAI})
-@String(PR = {PR})
-@String(AAAI = {AAAI})
-@String(CVPRW= {CVPRW})
-@String(CSVT = {IEEE TCSVT})
-
-﻿@article{lenet,
+@article{lenet,
   author={Lecun, Y. and Bottou, L. and Bengio, Y. and Haffner, P.},
   journal={Proceedings of the IEEE}, 
   title={Gradient-based learning applied to document recognition}, 
@@ -4655,18 +4597,18 @@ howpublished = {\url{https://mitpress.mit.edu/books/vision}}
   year      = {2021},
 }
 
-@article{zero,
+@inproceedings{zero,
   author    = {Samyam Rajbhandari and
                Jeff Rasley and
                Olatunji Ruwase and
                Yuxiong He},
-  title     = {ZeRO: Memory Optimization Towards Training {A} Trillion Parameter
-               Models},
-  year      = {2019},
-  journal   = {arXiv:1910.02054},
+  title     = {ZeRO: memory optimizations toward training trillion parameter models},
+  booktitle = {SC},
+  pages     = {20},
+  year      = {2020},
 }
 
-@article{mixed,
+@inproceedings{mixed,
   author    = {Paulius Micikevicius and
                Sharan Narang and
                Jonah Alben and
@@ -4683,6 +4625,15 @@ howpublished = {\url{https://mitpress.mit.edu/books/vision}}
   year = {2018}
 }
 
+@inproceedings{aji2017sparse,
+  author    = {Alham Fikri Aji and
+               Kenneth Heafield},
+  title     = {Sparse Communication for Distributed Gradient Descent},
+  booktitle = {EMNLP},
+  pages     = {440--445},
+  year      = {2017},
+}
+
 @article{mobilenet,
   author    = {Andrew G. Howard and
                Menglong Zhu and
@@ -4692,8 +4643,126 @@ howpublished = {\url{https://mitpress.mit.edu/books/vision}}
                Tobias Weyand and
                Marco Andreetto and
                Hartwig Adam},
-  title     = {MobileNets: Efficient Convolutional Neural Networks for Mobile Vision
-               Applications},
+  title     = {MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications},
   journal   = {arXiv:1704.04861},
   year      = {2017},
+}
+
+
+@inproceedings{tang2019doublesqueeze,
+  title={Doublesqueeze: Parallel stochastic gradient descent with double-pass error-compensated compression},
+  author={Tang, Hanlin and Yu, Chen and Lian, Xiangru and Zhang, Tong and Liu, Ji},
+  booktitle={International Conference on Machine Learning},
+  pages={6155--6165},
+  year={2019},
+  organization={PMLR}
+}
+
+@article{cifar,
+  title={Learning multiple layers of features from tiny images},
+  author={Krizhevsky, Alex and Hinton, Geoffrey and others},
+  year={2009},
+}
+
+@inproceedings{stich2018sparsified,
+  author    = {Sebastian U. Stich and
+               Jean{-}Baptiste Cordonnier and
+               Martin Jaggi},   
+  title     = {Sparsified {SGD} with Memory},
+  booktitle = {NeurIPS},
+  pages     = {4452--4463},
+  year      = {2018},
+}
+
+
+@inproceedings{strom2015scalable,
+  author    = {Nikko Strom},
+  title     = {Scalable distributed {DNN} training using commodity {GPU} cloud computing},
+  booktitle = {INTERSPEECH},
+  pages     = {1488--1492},
+  year      = {2015},
+}
+
+@inproceedings{inplace_abn,
+  title={In-place activated batchnorm for memory-optimized training of dnns},
+  author={Bulo, Samuel Rota and Porzi, Lorenzo and Kontschieder, Peter},
+  booktitle={CVPR},
+  pages={5639--5647},
+  year={2018}
+}
+@inproceedings{dryden2016communication,
+  title={Communication quantization for data-parallel training of deep neural networks},
+  author={Dryden, Nikoli and Moon, Tim and Jacobs, Sam Ade and Van Essen, Brian},
+  booktitle={MLHPC workshop},
+  pages={1--8},
+  year={2016},
+}
+
+@inproceedings{Deep_Gradient_Compression,
+  author    = {Yujun Lin and
+               Song Han and
+               Huizi Mao and
+               Yu Wang and
+               Bill Dally},
+  title     = {Deep Gradient Compression: Reducing the Communication Bandwidth for
+               Distributed Training},
+  booktitle = {ICLR},
+  year      = {2018},
+}
+
+@article{ghadimi2013stochastic,
+  title={Stochastic first-and zeroth-order methods for nonconvex stochastic programming},
+  author={Ghadimi, Saeed and Lan, Guanghui},
+  journal={SIAM Journal on Optimization},
+  volume={23},
+  number={4},
+  pages={2341--2368},
+  year={2013},
+  publisher={SIAM}
+}
+
+@article{Sohoni2019,
+  author    = {Nimit Sharad Sohoni and
+               Christopher Richard Aberger and
+               Megan Leszczynski and
+               Jian Zhang and
+               Christopher R{\'{e}}},
+  title     = {Low-Memory Neural Network Training: {A} Technical Report},
+  journal   = {arXiv:1904.10631},
+  year      = {2019},
+}
+
+@inproceedings{lookahead,
+  author    = {Michael R. Zhang and
+               James Lucas and
+               Jimmy Ba and
+               Geoffrey E. Hinton},
+  title     = {Lookahead Optimizer: k steps forward, 1 step back},
+  booktitle = {NeurIPS},
+  pages     = {9593--9604},
+  year      = {2019},
+}
+
+@article{gelu,
+  author    = {Dan Hendrycks and
+               Kevin Gimpel},
+  title     = {Bridging Nonlinearities and Stochastic Regularizers with Gaussian
+               Error Linear Units},
+  journal   = {CoRR},
+  volume    = {abs/1606.08415},
+  year      = {2016},
+}
+
+@article{dropout,
+  author    = {Nitish Srivastava and
+               Geoffrey E. Hinton and
+               Alex Krizhevsky and
+               Ilya Sutskever and
+               Ruslan Salakhutdinov},
+  title     = {Dropout: a simple way to prevent neural networks from overfitting},
+  journal   = {J. Mach. Learn. Res.},
+  volume    = {15},
+  number    = {1},
+  pages     = {1929--1958},
+  year      = {2014},
 }
